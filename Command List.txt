@@ -1,0 +1,100 @@
++--------------------+-------------------------+---------------------------------------------------------------+
+| Category           | Command                 | Description                                                   |
++--------------------+-------------------------+---------------------------------------------------------------+
+| Utility            | ping                    | Shows the bot's latency (e.g., 'Pong! Latency: 50ms')         |
+| Utility            | uptime                  | Displays the bot's uptime in minutes                          |
+| Utility            | userinfo                | Shows your user ID, tag, and account creation date             |
+| Utility            | serverinfo              | Displays server name, member count, and owner ID (N/A in DMs)  |
+| Utility            | avatar                  | Sends your profile avatar as an image                         |
+| Utility            | banner                  | Sends your profile banner (or 'No banner set' if none)         |
+| Utility            | channelinfo             | Shows channel name, ID, and type (works in DMs)               |
+| Utility            | rolelist                | Lists all roles in the server (N/A in DMs)                    |
+| Utility            | emojilist               | Lists all emojis in the server (N/A in DMs)                   |
+| Utility            | invite                  | Creates an invite link for the current channel (not in DMs)   |
+| Fun                | 8ball                   | Answers a question with a random response (e.g., 'Yes')       |
+| Fun                | coinflip                | Flips a coin (Heads or Tails)                                 |
+| Fun                | dice                    | Rolls a 6-sided die (1-6)                                     |
+| Fun                | joke                    | Fetches a random joke from JokeAPI                            |
+| Fun                | meme                    | Fetches a random meme from Meme API                           |
+| Fun                | catfact                 | Fetches a random cat fact from CatFact API                    |
+| Fun                | dogfact                 | Fetches a random dog fact from Dog API                        |
+| Fun                | quote                   | Fetches a random quote with author from Quotable API          |
+| Fun                | riddle                  | Fetches a random riddle with hidden answer                    |
+| Fun                | fortunecookie           | Fetches a Chuck Norris joke as a 'fortune'                    |
+| Text Manipulation  | reverse                 | Reverses the input text                                       |
+| Text Manipulation  | uppercase               | Converts input text to uppercase                              |
+| Text Manipulation  | lowercase               | Converts input text to lowercase                              |
+| Text Manipulation  | leet                    | Converts text to leet speak                                   |
+| Text Manipulation  | emojify                 | Converts letters to regional indicator emojis                 |
+| Text Manipulation  | vaporwave               | Converts text to full-width characters                        |
+| Text Manipulation  | mock                    | Alternates case in text                                       |
+| Text Manipulation  | clap                    | Adds 👏 between words                                          |
+| Text Manipulation  | space                   | Adds wide spaces between words                                |
+| Text Manipulation  | binary                  | Converts text to binary (8-bit per character)                 |
+| Automation         | afkon                   | Enables AFK mode (replies 'I am AFK' when mentioned)          |
+| Automation         | afkoff                  | Disables AFK mode                                             |
+| Automation         | autoreplyon [message]   | Enables auto-reply with custom message                        |
+| Automation         | autoreplyoff            | Disables auto-reply                                           |
+| Automation         | copycaton               | Enables copycat mode (repeats messages)                       |
+| Automation         | copycatoff              | Disables copycat mode                                         |
+| Automation         | statusonline            | Sets your status to Online                                    |
+| Automation         | statusidle              | Sets your status to Idle                                      |
+| Automation         | statusdnd               | Sets your status to Do Not Disturb                            |
+| Automation         | statusinvisible         | Sets your status to Invisible                                 |
+| Info               | weather [city]          | Fetches current weather for a city                            |
+| Info               | time [timezone]         | Shows current time in timezone (default: UTC)                 |
+| Info               | date                    | Shows current date                                            |
+| Info               | botversion              | Displays bot version (2.0)                                    |
+| Info               | help                    | Shows a brief command overview                                |
+| Info               | cpu                     | Shows CPU usage percentage                                    |
+| Info               | memory                  | Shows memory usage in MB                                      |
+| Info               | os                      | Shows the operating system                                    |
+| Info               | nodeversion             | Shows the Node.js version                                     |
+| Info               | discordversion          | Shows discord.js-selfbot-v13 version                          |
+| Game               | rps [rock/paper/scissors]| Plays Rock, Paper, Scissors                                   |
+| Game               | hangman                 | Starts a basic hangman game                                   |
+| Game               | tictactoe               | Displays a Tic-Tac-Toe board                                  |
+| Game               | sudoku                  | Shows a basic Sudoku puzzle                                   |
+| Game               | trivia                  | Fetches a trivia question                                     |
+| Game               | guessnumber             | Starts a number guessing game (1-100)                         |
+| Game               | guess [number]          | Submits a guess for the number guessing game                  |
+| Game               | wordscramble            | Provides a scrambled word                                     |
+| Game               | mathquiz                | Gives a simple multiplication quiz                            |
+| Game               | flagquiz                | Asks which country a flag represents                          |
+| Fun Variations     | pun                     | Fetches a pun from JokeAPI                                    |
+| Fun Variations     | dadjoke                 | Fetches a dad joke                                            |
+| Fun Variations     | knockknock              | Tells a knock-knock joke                                      |
+| Fun Variations     | horoscope [sign]        | Gives a generic horoscope                                     |
+| Fun Variations     | magictrick              | Performs a fake number-based magic trick                      |
+| Fun Variations     | superhero [name]        | Generates a superhero name                                    |
+| Fun Variations     | bandname [name]         | Generates a band name                                         |
+| Fun Variations     | passwordgen             | Generates a random 12-character password                      |
+| Fun Variations     | colorhex                | Generates a random hex color code                             |
+| Fun Variations     | randomfact              | Fetches a random fact from Useless Facts API                  |
+| Text Variations    | bold [text]             | Formats text in bold                                          |
+| Text Variations    | italic [text]           | Formats text in italics                                       |
+| Text Variations    | underline [text]        | Formats text with underline                                   |
+| Text Variations    | strikethrough [text]    | Formats text with strikethrough                               |
+| Text Variations    | code [text]             | Formats text as a code block                                  |
+| Text Variations    | spoiler [text]          | Hides text in a spoiler                                       |
+| Text Variations    | block [text]            | Formats text in a plain code block                            |
+| Text Variations    | zalgo [text]            | Adds random Zalgo characters                                  |
+| Text Variations    | rot13 [text]            | Applies ROT13 cipher                                          |
+| Text Variations    | morse [text]            | Converts text to Morse code                                   |
+| Status & Presence  | playing [text]          | Sets status to 'Playing [text]'                               |
+| Status & Presence  | watching [text]         | Sets status to 'Watching [text]'                              |
+| Status & Presence  | listening [text]        | Sets status to 'Listening to [text]'                          |
+| Status & Presence  | streaming [text] [url]  | Sets status to 'Streaming [text]' with optional URL           |
+| Status & Presence  | competing [text]        | Sets status to 'Competing in [text]'                          |
+| Status & Presence  | clearstatus             | Clears your custom status                                     |
+| Status & Presence  | nickname [text]         | Sets your nickname in the server                              |
+| Status & Presence  | bio                     | Informs bio updates not supported                             |
+| Status & Presence  | hypesquadbravery        | Informs HypeSquad changes require manual settings             |
+| Status & Presence  | hypesquadbrilliance     | Informs HypeSquad changes require manual settings             |
+| Miscellaneous      | qrgen [text]            | Generates a QR code URL for text                              |
+| Miscellaneous      | geoip [ip]              | Fetches location info for an IP address                       |
+| Miscellaneous      | tts                     | Informs that text-to-speech not supported                     |
+| Miscellaneous      | calc [expression]       | Evaluates a math expression                                   |
+| Miscellaneous      | remindme [minutes] [msg]| Sets a reminder after specified minutes                       |
+| Miscellaneous      | note [text]             | Saves a note                                                  |
+| Miscellaneous      | notes                   | Displays all saved notes

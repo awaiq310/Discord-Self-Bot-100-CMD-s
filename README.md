@@ -31,8 +31,8 @@ Follow these steps to get your self-bot running:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/awaiq310/Discord-Self-Bot-100-CMD-s.git
-cd Discord-Self-Bot-100-CMD-s
+[![Clone Repository](https://img.shields.io/badge/Clone%20Repo-GitHub-blue?style=for-the-badge&logo=github)](https://github.com/awaiq310/Discord-Self-Bot-100-CMD-s.git)
+
 ```
 
 2. Install dependencies
